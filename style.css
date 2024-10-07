@@ -1,0 +1,29 @@
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.container * {
+  display: block;
+}
+
+.container button {
+  width: 50%;
+  margin: 30px auto;
+  padding: 7px 0;
+  border: none;
+  background-color: #7ec1ff;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+#input,
+#output {
+  width: 100%;
+}
+
+#input {
+  height: 60vh;
+  border: solid 1.5px #444;
+  border-radius: 7px;
+}
